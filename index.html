@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>A simple Backbone project structure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <h1>My users</h1>
+    <nav><a href="#list">List</a> - <a href="#add">Add</a></nav>
+    <div id="app"></div>
+</div>
+
+<!--
+using:http://localhost:63342/build-simple-client-side-mvc-app-require-js/index.html
+
+Attribute data-main tells where the main java script file that uses RequireJS is found
+This is the only code required to include files using RequireJS:
+-->
+<script  data-main="js/main" src="bower_components/requirejs/require.js"></script>
+<!--This sets the baseUrl to the "js" directory, and
+    loads a script that will have a module ID of 'main'-->
+</body>
+</html>

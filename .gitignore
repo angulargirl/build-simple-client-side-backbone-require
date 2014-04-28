@@ -1,0 +1,11 @@
+#The purpose of gitignore files is to ensure that certain files not tracked by Git remain untracked.
+#ref:http://gitready.com/beginner/2009/01/19/ignoring-files.html&https://github.com/github/gitignore
+#USE GIT STATUS TO CONTROL IF IGNORED OR NOT
+######################################
+# ignore generated idea files
+######################################
+
+*.idea/workspace.xml
+*.idea/tasks.xml
+
+
